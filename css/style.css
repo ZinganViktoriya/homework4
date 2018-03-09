@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height:100vh;
+}
+body { 
+	font: 12px Segoe UI; 
+	width: 100%; 
+	height: 100%; 
+	color: #333;
+	background: fixed url(../img/cat.jpg) 0 0 no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+header {
+	width: 100%;
+	height: 100px;
+	background: rgba(64, 74, 81, 0.5);
+}
+.header_container {
+	width: 60%;
+	height: 100px;
+	margin: 0 auto;
+}
+a.logo {
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 100px;
+}
+a.logo span{
+	color: #4bcaff;
+}
+nav.main_menu {
+	width: 60%;
+	height: 100px;
+	float: right;
+}
+nav.main_menu ul {
+	width: 100%;
+	height: 100px;
+	list-style-type: none;
+	text-align: right;	
+}
+nav.main_menu ul li {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+	line-height: 100px;
+	margin-left: 40px;
+}
+nav.main_menu ul li a {
+	text-decoration: none;
+	color: #fff;	
+}
+nav.main_menu ul li a.active, nav.main_menu ul li a:hover {
+	border: 2px #4bcaff solid;
+	color: #4bcaff;
+	padding: 5px 20px;
+	margin-right: -22px;
+}
+nav.main_menu ul li a:hover {
+	margin-left: -22px;
+}
+section.main {
+	width: 100%;
+	height: 430px;
+	text-align: center;
+}
+.main_container {
+	height: 430px;
+	padding-top: 160px;
+}
+section.main h1 {
+	color: #FFF;
+	font-size: 30px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	background: rgba(64, 74, 81, 0.5);
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+section#services {
+	width: 100%;
+	height: 325px;
+	background: #4BCAFF;
+}
+section#services .services_container {
+	width: 60%;
+	height: 325px;
+	margin: 0 auto;
+}
+section#services #heading {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 55px 0 10px 0;
+	margin-bottom: 30px;
+	font-weight: lighter;
+	float: left;
+}
+section#services #heading span {
+	padding-bottom: 3px;
+	border-bottom: 2px #fff solid;
+}
+section#services .list_services {
+	width: 100%;
+	float: left;
+}
+section#services #column {
+	width: 25%;
+	float: left;
+}
+section#services #column a {
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+section#services #column a:hover {
+	text-decoration: underline;
+}
+section#services #column p {
+	margin-top: 7px;
+	text-transform: uppercase;
+}
+section#services #column span {
+	font-size: 10px;
+	display: block;
+	margin-top: 10px;
+	line-height: 15px;  
+}
+
